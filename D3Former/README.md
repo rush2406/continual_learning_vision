@@ -28,22 +28,6 @@ conda activate D3former
 
 The corresponding path of the folder has to be set as `data_dir` argument in [main.py](main.py)
 
-## Results
-
-![Results](images/acc_plot.png)
-
-<strong> D^3Former performance on small scale datasets: </strong> Plots showing task wise accuracy for
-different number of incremental tasks for CIFAR-100. D^3Former achieves relatively high accuracy
-compared to other state-of-the-art methods when adding 10, 5 and 2 classes per task.
-
-![Results](images/cifar100.png)
-Results of <strong>CIFAR-100</strong> with Average accuracy (%), last phase accuracy (%) and forgetting
-rate F(%) of different methods in 5,10 and 25 tasks settings.
-
-![Results](images/imagenet100.png)
-Results of <strong>ImageNet100</strong> with Average accuracy (%), last phase accuracy (%) and forgetting
-rate F(%) of different methods in 5,10 and 25 tasks settings.
-
 ## Running Experiments
 
 <strong> For CIFAR-100</strong>
@@ -83,18 +67,4 @@ python3 main.py --gpu 0 --dataset imagenet --nb_cl_fg 500 --nb_cl 50 --the_lambd
 
 ## Acknowledgement
 
-Our code is built upon [AANet](https://github.com/yaoyao-liu/class-incremental-learning/tree/main/adaptive-aggregation-networks). We would like to thank the authors for their implementation.
-
-## Citation
-
-```bibtex
-  @article{mohamed2022textrm,
-  title={Debiased Dual Distilled Transformer for Incremental Learning},
-  author={Mohamed, Abdelrahman and Grandhe, Rushali and Joseph, KJ and Khan, Salman and Khan, Fahad},
-  journal={arXiv preprint arXiv:2208.00777},
-  year={2022}
-}
-```
-
-## Contact
-Please feel free to create an issue here or contact us at abdelrahman.mohamed@mbzuai.ac.ae, rushali.grandhe@mbzuai.ac.ae
+The code is built upon [AANet](https://github.com/yaoyao-liu/class-incremental-learning/tree/main/adaptive-aggregation-networks). I would like to thank the authors for their implementation.

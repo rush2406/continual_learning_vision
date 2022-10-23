@@ -1,4 +1,4 @@
-## D^3Former: Debiased Dual Distilled Transformer for Incremental Learning
+## Adapting a hybrid ViT for Class Incremental Continual Learning
 
 ![main figure](images/architecture.png)
 

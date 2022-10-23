@@ -1,13 +1,20 @@
 ## D^3Former: Debiased Dual Distilled Transformer for Incremental Learning
 
 ![main figure](images/architecture.png)
-> *<div style="text-align: justify"> **Abstract:** In class incremental learning (CIL) setting, groups of classes are introduced to a model in each learning phase. The goal is to learn a unified model performant on all the classes observed so far. Given the recent popularity of Vision Transformers (ViTs) in conventional classification settings, an interesting question is to study their continual learning behaviour. In this work, we develop a Debiased Dual Distilled Transformer for CIL dubbed D^3Former. The proposed model leverages a hybrid nested ViT design to ensure data efficiency and scalability to small as well as large datasets. In contrast to a recent ViT based CIL approach, our D^3Former does not dynamically expand its architecture when new tasks are learned and remains suitable for a large number of incremental tasks. The improved CIL behaviour of D^3Former owes to two fundamental changes to the ViT design. First, we treat the incremental learning as a long-tail classification problem where the majority samples from new classes vastly outnumber the limited exemplars available for old classes. To avoid the bias against the minority old classes, we propose to dynamically adjust logits to emphasize on retaining the representations relevant to old tasks. Second, we propose to preserve the configuration of spatial attention maps as the learning progresses across tasks. This helps in reducing catastrophic forgetting by constraining the model to retain the attention on the most discriminative regions. D^3Former obtains favorable results on incremental versions of CIFAR-100, MNIST, SVHN, and ImageNet datasets. </div>*
+
+## Highlights
+
+- A hybrid ViT (NesT) is adapted for continual learning
+- Inherent bias during exemplar based continual learning is reduced by using a logit adjustment strategy
+- Spatial awareness of the model is improved using attention based distillation and coupled with feature level distillation
+- Considerable improvements in accuracy observed for small and large datasets
+
 
 ## Getting Started
 
-We advise using python 3.8, CUDA 11.3 and pytorch version 1.10.1
+Min requirements: python 3.8, CUDA 11.3 and pytorch version 1.10.1
 
-You may download Anaconda and read the installation instruction on their official website:
+Download Anaconda and read the installation instructions on the official website:
 <https://www.anaconda.com/download/>
 
 Create a new environment from the provided yml file:
@@ -67,4 +74,4 @@ python3 main.py --gpu 0 --dataset imagenet --nb_cl_fg 500 --nb_cl 50 --the_lambd
 
 ## Acknowledgement
 
-The code is built upon [AANet](https://github.com/yaoyao-liu/class-incremental-learning/tree/main/adaptive-aggregation-networks). I would like to thank the authors for their implementation.
+This code is built upon [AANet](https://github.com/yaoyao-liu/class-incremental-learning/tree/main/adaptive-aggregation-networks). Many thanks to the authors for their implementation.

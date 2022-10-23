@@ -1,6 +1,6 @@
 # Exploiting acquired knowledge for Class Incremental Continual Learning
 
-![main figure](images/clust.pdf)
+![main figure](images/clust.png)
 
 ## Highlights
 

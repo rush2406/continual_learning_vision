@@ -1,0 +1,7 @@
+# ninja log v5
+1	5428	1621330628868982003	/home/student/OWOD/build/temp.linux-x86_64-3.8/home/student/OWOD/detectron2/layers/csrc/cocoeval/cocoeval.o	bad05f9af8664a6c
+1	6027	1621330629468969363	/home/student/OWOD/build/temp.linux-x86_64-3.8/home/student/OWOD/detectron2/layers/csrc/box_iou_rotated/box_iou_rotated_cpu.o	bb4da20b4b9c21e4
+0	6768	1621330630208953784	/home/student/OWOD/build/temp.linux-x86_64-3.8/home/student/OWOD/detectron2/layers/csrc/nms_rotated/nms_rotated_cpu.o	224cff685a6f09f6
+1	9028	1621330632468906319	/home/student/OWOD/build/temp.linux-x86_64-3.8/home/student/OWOD/detectron2/layers/csrc/ROIAlign/ROIAlign_cpu.o	67f931443ba8802a
+0	9212	1621330632652902462	/home/student/OWOD/build/temp.linux-x86_64-3.8/home/student/OWOD/detectron2/layers/csrc/ROIAlignRotated/ROIAlignRotated_cpu.o	e47e158ca0fa5e49
+0	21959	1621330645392637951	/home/student/OWOD/build/temp.linux-x86_64-3.8/home/student/OWOD/detectron2/layers/csrc/vision.o	ea89e0085ba4e3f2

@@ -25,7 +25,7 @@ property using post-processing and proposal sampling strategies. </div>*
 #### Directories
 D3Former: Adapts a hybrid ViT for Class Incremental Continual Learning
 
-Pretrain: Exploiting acquired knowledge for Class Incremental Continual Learning
+Cluster_Pretrain: Exploiting acquired knowledge for Class Incremental Continual Learning
 
 OWOD: Continual Learning for Object Detection
 

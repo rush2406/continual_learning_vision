@@ -27,7 +27,7 @@ D3Former: Adapts a hybrid ViT for Class Incremental Continual Learning
 
 Cluster_Pretrain: Exploiting acquired knowledge for Class Incremental Continual Learning
 
-OWOD: Continual Learning for Object Detection
+OWOD: Class Incremental Continual Learning for Object Detection
 
 #### Instructions
 Please refer the README in the respective directories

@@ -31,3 +31,8 @@ OWOD: Class Incremental Continual Learning for Object Detection
 
 #### Instructions
 Please refer the README in the respective directories
+
+
+#### Contact
+
+Please feel free to direct your queries to rushali.grandhe@mbzuai.ac.ae
